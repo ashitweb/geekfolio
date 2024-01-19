@@ -70,7 +70,7 @@ input {
 
 
 .banner {
-    background-image: url(images/h2.png);
+    background-image: url(h2.png);
     background-repeat: no-repeat;
     background-size: 750px 580px;
     background-position: right;
@@ -251,7 +251,7 @@ nav.secondnav ul {
 }
 
 .third {
-    background-image: url(images/h2.png);
+    background-image: url(h2.png);
     background-repeat: no-repeat;
     background-size: 650px 500px;
     background-position-x: 35%;
