@@ -1,0 +1,721 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #F1F3F5;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+div.logo {
+    width: 18%;
+    line-height: 3.5;
+}
+
+.logo h3 {
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    font-size: 125%;
+}
+
+.nav {
+    width: 60%;
+
+}
+
+nav.firstnav ul li {
+    list-style-type: none;
+    font-family: 'Sora', sans-serif;
+    font-size: 88%;
+    font-weight: 550;
+}
+
+nav.firstnav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav.firstnav ul {
+    display: flex;
+    line-height: 5;
+    justify-content: space-between;
+}
+
+.inp {
+    width: 13%;
+
+}
+
+input {
+    width: 45%;
+    line-height: 5;
+    background-color: transparent;
+    border-width: 0.01px;
+
+}
+
+.banner {
+    background-color: #858687;
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+
+
+.banner {
+    background-image: url(images/h2.png);
+    background-repeat: no-repeat;
+    background-size: 750px 580px;
+    background-position: right;
+}
+
+.heading {
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+}
+
+.heading h4,
+h1,
+p {
+    color: white;
+    font-family: 'Sora', sans-serif;
+
+}
+
+.heading h1 {
+    font-size: 400%;
+}
+
+.heading h4 {
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.para {
+    width: 33%;
+    position: absolute;
+    top: 77%;
+    left: 24%;
+}
+
+.circle {
+    height: 160px;
+    width: 160px;
+    border: solid black 1px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 72%;
+    left: 7%;
+    position: relative;
+}
+
+.circle p {
+    padding: 45% 0 0 20%;
+    font-size: larger;
+}
+
+.circle img {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.para p {
+    font-family: 'Sora', sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    font-weight: 50%;
+}
+
+.secondnav {
+    width: 100%;
+
+}
+
+.secondnav img {
+    margin-top: 2.5%;
+
+}
+
+nav.secondnav ul li {
+    list-style-type: none;
+    font-family: 'Sora', sans-serif;
+    font-size: 200%;
+    font-weight: 540;
+}
+
+nav.secondnav ul {
+    display: flex;
+    line-height: 3;
+    justify-content: space-between;
+}
+
+.second {
+    width: 100%;
+    background-color: #F1F3F5;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.maincontent {
+    width: 80%;
+}
+
+.maincontent button {
+    border-radius: 25px 25px;
+    background-color: transparent;
+    padding: 1% 3%;
+    border-width: 1px;
+    margin: 8% 8% 0;
+}
+
+.maincontent h2 {
+    font-size: 350%;
+    font-family: 'Sora', sans-serif;
+    line-height: 65px;
+    margin: 1% 8% 0;
+}
+
+.secondarysecond {
+    width: 20%;
+    margin-top: 10%;
+    display: flex;
+}
+
+.secondarysecond p {
+    font-family: 'Sora', sans-serif;
+    color: black;
+
+}
+
+.dotsecond {
+    height: 50px;
+    width: 50px;
+    border: black;
+    background-color: #E6E8E9;
+    border-radius: 100%;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.parent h3 {
+    font-size: 24px;
+    font-family: 'Sora', sans-serif;
+    width: 90%;
+}
+
+.parent p {
+    font-size: 100%;
+    font-family: 'Sora', sans-serif;
+    color: #696969;
+    margin-left: 19%;
+    margin-top: 3%;
+    line-height: 1.5;
+}
+
+.child {
+
+    border: 1px solid #D8DADC ;
+    border-radius: 5px 5px;
+    width: 41%;
+    height: 250px;
+    padding: 5% 4%;
+
+    line-height: 1.5;
+    margin: 3% 1%;
+}
+
+.iconcontent img {
+    float: left;
+    margin-right: 5%;
+}
+
+.third {
+    background-image: url(images/h2.png);
+    background-repeat: no-repeat;
+    background-size: 650px 500px;
+    background-position-x: 35%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.third h2 {
+    font-size: 84px;
+    width: 70%;
+    text-align: left;
+    padding: 10%;
+    color: rgba(0, 0, 0, );
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7F7F7F;
+
+}
+
+.firstcontent {
+    width: 27%;
+    padding-top: 5%;
+    padding-right: 5%;
+    line-height: 2;
+}
+
+.firstcontent h3 {
+    float: inline-start;
+    font-size: 44px;
+    padding-top: 15%;
+    padding-right: 5%;
+    font-family: 'Sora', sans-serif;
+
+}
+
+.firstcontent p {
+    color: black;
+    padding-top: 20%;
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+}
+
+.firstcontent button {
+    border-radius: 15px;
+    border: none;
+    padding: 4% 13%;
+    background-color: #F1F3F5;
+}
+
+.fourth {
+    background-color: #F1F3F5;
+    width: 100%;
+}
+
+.row1 {
+    margin-top: 7%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5%;
+}
+
+.row1 img {
+    border-radius: 10px 10px;
+    object-fit: cover;
+}
+
+.row1 h3 {
+    font-size: 20px;
+    line-height: 3;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500;
+}
+
+
+.row2 {
+    display: flex;
+    margin-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+.childnew{
+    margin: 0 2%;
+    width: 600px;
+}
+
+
+
+
+.row2 img {
+    border-radius: 15px 15px;
+    object-fit: cover;
+
+}
+
+.row2 h3 {
+    font-size: 20px;
+    line-height: 3;
+    font-family: 'Sora', sans-serif;
+    font-weight: 500;
+}
+
+.fifth {
+    width: 100%;
+    display: flex;
+}
+
+.maindata {
+    display: inline-block;
+    margin-top: 5%;
+    margin-right: 6%;
+    line-height: 3;
+    margin-bottom: 10%;
+
+}
+
+.data {
+    border: 1px solid #E5E5E5;
+
+    display: flex;
+    border-left: none;
+    border-right: none;
+    width: 450px;
+}
+
+
+.label {
+    width: 350px;
+
+}
+
+.label h4 {
+    font-size: 24px;
+    line-height: 3;
+}
+
+.label h5 {
+    font-size: 13px;
+    color: #696969;
+}
+
+.label2 {
+    float: right;
+    line-height: 2;
+}
+
+.label2 p {
+    font-size: 13px;
+    color: #696969;
+}
+
+.contents {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.4%;
+
+}
+
+.maincontents {
+    width: 100%;
+    margin: 8% 8% 0;
+}
+
+.maincontents button {
+    border-radius: 25px 25px;
+    background-color: transparent;
+    padding: 1% 3%;
+    border-width: 1px;
+
+}
+
+.maincontents h2 {
+    font-size: 350%;
+    font-family: 'Sora', sans-serif;
+    line-height: 65px;
+
+}
+
+.iconset {
+    display: flex;
+    margin-bottom: 10%;
+    width: 600px;
+    padding-left: 8%;
+}
+
+.icons {
+    padding: 50px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 0 10px;
+}
+
+
+.icons p {
+    font-size: 15px;
+    color: #1D1D1D;
+}
+
+
+.icons img {
+    filter: grayscale(1);
+}
+
+.icons img:hover{
+    filter: grayscale(0%);
+}
+
+.sixth{
+    width: 100%;
+    display: flex;
+    background-color: #F1F3F5;
+    padding-top: 10%;
+}
+
+
+.contentss {
+    display: flex;
+    width: 100%;
+}
+
+.maincontentss {
+    width: 100%;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.maincontentss button {
+    border-radius: 25px 25px;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 3% 12%;
+    border-width: 1px;
+    margin: 8% 15% 0;
+}
+
+.maincontentss h2 {
+    font-size: 50px;
+    font-family: 'Sora', sans-serif;
+    line-height: 65px;
+    margin: 1% 15% 0;
+}
+
+
+.testimonials{
+    display: flex;
+    width: 100%;
+    margin-right: 5%;
+    
+    
+}
+
+.testimonial{
+    margin: 0% 2% ;
+    border: 1px solid #E2E4E6;
+    border-radius: 15px 15px;
+    width: 400px;
+    padding: 5%;
+    line-height: 1.5;
+}
+
+.testimonial i{
+    padding-top: 2%;
+    font-size: 12px;
+    color: #ABD404;
+}
+
+.testimonial p{
+    margin: 10% 0 ;
+    color: #89898A;
+    font-size: 18px;
+}
+
+.testimonial h4{
+    font-size: 18px;
+}
+
+.testimonial h5{
+    color: #89898A;
+    font-size: 16px;
+}
+
+.anchor{
+    display: flex;
+    
+
+}
+
+.anchor img{
+object-fit: cover;
+border-radius: 50%;
+margin: 0 11%;
+}
+
+.seventh{
+    width: 100%;
+}
+
+.blogs{
+    display: flex;
+    margin: 5% 6%;
+    justify-content: center;
+}
+
+.blog{
+    display: flex;
+    border: 1px solid #F2F2F2 ;
+    border-radius: 10px 10px;
+    margin: 0% 1%;
+    padding: 2%;
+}
+
+.blog img{
+    object-fit: cover;
+}
+
+.blogtext{
+    margin: 5%;
+    line-height: 1;
+}
+
+.texts{
+    
+    margin: 8% 0%;
+}
+
+.blogtext h6{
+    font-size: 14px;
+    color: #606060;
+    font-family: 'Sora', sans-serif;
+    font-weight: 200;
+}
+
+.blogtext h5{
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Sora', sans-serif;
+    font-weight: 200;
+
+}
+
+.texts button{
+    margin: 0% 1%;
+    padding: 4% 9%;
+    border-radius: 5px 5px;
+    font-size: 15px;
+    border: none;
+
+}
+
+
+.eigth{
+    width: 100%;
+    background-color: #F1F3F5;
+    display: flex;
+    height: auto;
+    padding: 10% 6%;
+}
+
+.contact button{
+    border-radius: 25px 25px;
+    background-color: transparent;
+    font-size: 13px;
+    padding: 2% 7%;
+    margin-bottom: 2%;
+    border-width: 1px;
+}
+
+.contact h2{
+    font-size: 56px;
+    width: 80%;
+    margin-bottom: 2%;
+} 
+
+.contact p{
+    font-size: 15px;
+    color: #83919A;
+    line-height: 2;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.contact a{
+    font-size: 36px;
+    color: black;
+}
+
+.contact nav{
+    width: 60%; 
+}
+
+
+.contact nav ul li {
+    list-style-type: none;
+    font-family: 'Sora', sans-serif;
+    
+   
+}
+
+.contact nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
+}
+
+.contact nav ul {
+    display: flex;
+    line-height: 8.8;
+    justify-content: space-between;
+}
+
+.form input{
+    border: 1px solid #BFC0C2;
+    border-radius: 15px 15px;
+    margin: 3% 2%;
+    font-size: 15px;
+    padding-left: 2%;
+    height: 50px;
+    
+}
+
+.form .subject-input {
+    width: 95%;
+}
+
+.form .message-input {
+    width: 95%;
+    height: 160px;
+    padding-bottom: 20%;
+
+}
+
+.form .message-input :placeholder-shown{
+    position: fixed;
+
+}
+
+.form button{
+    font-size: 15px;
+    padding: 3% 40%;
+    width:98% ;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 25px 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+
+footer .logo{
+    font-size: 18px;
+}
+
+footer p{
+    float: right;
+    font-size: 15px;
+    line-height: 4.7;
+    color: #606060;
+}
